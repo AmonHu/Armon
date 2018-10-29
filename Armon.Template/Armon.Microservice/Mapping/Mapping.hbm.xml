@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+       assembly="Armon.Microservice"
+       namespace="Armon.Microservice.Model">
+
+  <class name="ServiceConfig">
+    <id name="RecordId">
+      <column name="RecordId" not-null="true" sql-type="Guid" />
+      <generator class="assigned" />
+    </id>
+    <property name="CreateAt">
+      <column name="CreateAt" not-null="true" sql-type="DATETIME" />
+    </property>
+    <property name="BaudRate" />
+    <property name="PortName" />
+  </class>
+
+  <class name="Dashboard">
+    <id name="RecordId">
+      <column name="RecordId" not-null="true" sql-type="Guid" />
+      <generator class="assigned" />
+    </id>
+    <property name="CreateAt">
+      <column name="CreateAt" not-null="true" sql-type="DATETIME" />
+    </property>
+    <property name="Value" />
+  </class>
+</hibernate-mapping>

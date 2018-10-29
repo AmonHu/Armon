@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armon.CoreLib", "Armon.CoreLib\Armon.CoreLib.csproj", "{5CCF34AE-432A-461C-BB49-4ABA25C98329}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Armon.Template", "Armon.Template", "{23465B97-06AC-4520-8F8B-C96D609E76FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Armon.Microservice", "Armon.Template\Armon.Microservice\Armon.Microservice.csproj", "{A33F53A7-4155-4B88-AC20-AF51F5E3B1E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CCF34AE-432A-461C-BB49-4ABA25C98329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CCF34AE-432A-461C-BB49-4ABA25C98329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CCF34AE-432A-461C-BB49-4ABA25C98329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CCF34AE-432A-461C-BB49-4ABA25C98329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A33F53A7-4155-4B88-AC20-AF51F5E3B1E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33F53A7-4155-4B88-AC20-AF51F5E3B1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33F53A7-4155-4B88-AC20-AF51F5E3B1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33F53A7-4155-4B88-AC20-AF51F5E3B1E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A33F53A7-4155-4B88-AC20-AF51F5E3B1E6} = {23465B97-06AC-4520-8F8B-C96D609E76FC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B54F536-024D-4A30-9F67-596223E1176F}
+	EndGlobalSection
+EndGlobal
